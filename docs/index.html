@@ -40,10 +40,12 @@
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="js/md5.min.js"></script>
 
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
   <script>
     const gitalk = new Gitalk({
       clientID: '8f2965ee9f262526376e',
@@ -51,6 +53,7 @@
       repo: 'fq-book',
       owner: 'loremwalker',
       admin: 'loremwalker',
+      id: md5(window.location.pathname),
       // facebook-like distraction free mode
       distractionFreeMode: false
     })
