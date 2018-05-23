@@ -1,10 +1,9 @@
 # 了解GFW
 
-> **[danger]** **GFW的本质上是巨大的高性能分布式入侵检测维稳系统并不是单纯的防火墙**
+!> GFW的本质上是巨大的高性能分布式入侵检测维稳系统并不是单纯的防火墙
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/4gfw.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-23_210035.png)
 
-> 图片来源于：[上网限制和翻墙基本原理](http://blog.021xt.cc/archives/85#comment-4100)
 
 <!-- GFW可以说是为国为民的纳税人资产与科研人员集体劳动成果，算的上是二十世纪中国乃至世界最伟大的发明了。作为国家核武级战略维稳技术工具，保密程度可见一斑。
 
