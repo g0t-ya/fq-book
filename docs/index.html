@@ -59,9 +59,10 @@
       admin: ['loremwalker'],
       distractionFreeMode: false,
     // facebook-like distraction free mode
-    id: decodeURI(location.pathname)
+    id: md5(location.href)
+    // id: decodeURI(location.pathname)
   })
-  // gitalk.render('gitalk-container')
+
 </script>
 
 
@@ -73,6 +74,7 @@
   <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="js/md5.min.js"></script>
+  <script src="https://raw.githubusercontent.com/blueimp/JavaScript-MD5/master/js/md5.min.js"></script>
   <!-- <script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script> -->
 
 </body>
