@@ -1,7 +1,5 @@
 # Betternet
 
-## 使用方法
-
 点击
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-29_022009.png)
@@ -9,8 +7,6 @@
 测试
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-30_124624.png)
-
-## 网络共享
 
 打开`移动热点`，创建成功后，并右键选择`设置`
 

@@ -4,5 +4,5 @@
 
 代理程序会根据缓存的时间、大小和提取记录自动删除缓存。删除的方法有两种，一种是删除保存最久的资料，一种是删除最少提取的缓存。这两种方法也可以结合使用。
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-05-10_192753.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-10_192753.png)
 

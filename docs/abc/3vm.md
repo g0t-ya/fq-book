@@ -1,6 +1,6 @@
 # \[转\]VMware的3种网络模式
 
-> 转载自：http://net.zol.com.cn/115/1158058.html
+> 转载自：[根本区别在哪里 VMware的3种网络模式](http://net.zol.com.cn/115/1158058.html)&emsp;作者：孙鹏
 
 ### 桥接模式
 
@@ -8,23 +8,23 @@
 
 桥接网络拓扑图
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_161016.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_161016.png)
 
 那么物理网卡和虚拟网卡就相当于处于同一个网段，虚拟交换机就相当于一台现实网络中的交换机。所以两个网卡的IP地址也要设置为同一网段。
 
 物理网卡IP地址
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_161401.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_161401.png)
 
 虚拟网卡IP地址
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_161708.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_161708.png)
 
 我们看到，物理网卡和虚拟网卡的IP地址处于同一个网段，子网掩码、网关、DNS等参数都相同。两个网卡在拓扑结构中是相对独立的。
 
 ping结果
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_161826.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_161826.png)
 
 我们在192.168.15.111上ping192.168.15.96，结果显示两个网卡能够互相通信。如果在网络中存在DHCP服务器，那么虚拟网卡同样可以从DHCP服务器上获取IP地址。所以桥接网络模式是VMware虚拟机中最简单直接的模式。安装虚拟机时它为默认选项。
 
@@ -34,7 +34,7 @@ ping结果
 
 NAT网络模式拓扑图
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_162012.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162012.png)
 
 VMware Network Adepter VMnet8虚拟网卡的作用仅限于和VMnet8网段进行通信，它不给VMnet8网段提供路由功能，所以虚拟机虚拟一个NAT服务器，使虚拟网卡可以连接到Internet。在这种情况下，我们就可以使用端口映射功能，让访问主机80端口的请求映射到虚拟机的80端口上。
 
@@ -42,12 +42,12 @@ VMware Network Adepter VMnet8虚拟网卡的IP地址是在安装VMware时由系�
 
 NAT虚拟网卡IP地址
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_162216.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162216.png)
 
   
 物理网卡IP地址
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_162302.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162302.png)
 
 虚拟出来的网段和NAT模式虚拟网卡的网段是一样的，都为192.168.111.X，包括NAT服务器的IP地址也是这个网段。在安装VMware之后同样会生成一个虚拟DHCP服务器，为NAT服务器分配IP地址。
 
@@ -61,21 +61,21 @@ NAT虚拟网卡IP地址
 
 host-only模式拓扑图
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_162359.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162359.png)
 
 同NAT一样，VMware Network Adepter VMnet1虚拟网卡的IP地址也是VMware系统指定的，同时生成的虚拟DHCP服务器和虚拟网卡的IP地址位于同一网段，但和物理网卡的IP地址不在同一网段。
 
  Host-Only虚拟网卡IP地址
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_162504.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162504.png)
 
 物理网卡IP地址
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images//2018-05-13_162617.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162617.png)
 
 Host-Only的宗旨就是建立一个与外界隔绝的内部网络，来提高内网的安全性。这个功能或许对普通用户来说没有多大意义，但大型服务商会常常利用这个功能。如果你想为VMnet1网段提供路由功能，那就需要使用RRAS，而不能使用XP或2000的ICS，因为ICS会把内网的IP地址改为192.168.0.1，但虚拟机是不会给VMnet1虚拟网卡分配这个地址的，那么主机和虚拟机之间就不能通信了。
 
 ### 综述
 
-在VMware的3中网络模式中，NAT模式是最简单的，基本不需要手动配置IP地址等相关参数。至于桥接模式则需要额外的IP地址，如果是在内网环境中还很容易，如果是ADSL宽带就比较麻烦了，ISP一般是不会大方的多提供一个公网IP的。
+在VMware的3中网络模式中，NAT模式是最简单的，基本不需要手动配置IP地址等相关参数。至于桥接模式则需要额外的IP地址，如果是在内网环境中还很容易，如果是ADSL宽带就比较麻烦，ISP一般是不会大方地多提供一个公网IP的。
 

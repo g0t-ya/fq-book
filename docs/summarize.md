@@ -10,7 +10,7 @@
  
 至此，已掌握多种科学上网方式，刷梅林路由器这类修电脑动手实操性较强的，可去YouTube在线观看。关于本书所涉及的站点收录，[请点击参考此github项目](https://github.com/loremwalker/WebSiteUseful)，以下是总结图：
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-05-05_154505.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-05_154505.png)
 
 
 

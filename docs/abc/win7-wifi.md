@@ -1,6 +1,6 @@
 # \[转\]用Win7，电脑就是路由器
 
-> 转载自：http://blog.sina.com.cn/s/blog_6286984e0100kujt.html
+> 转载自：[用Win7，电脑就是路由器](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html) 作者：[微软Windows的博客](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html)
 
 在平常上网过程中，难免会遇到一些网络方面的问题，这时候我们就需要查看网络连接的状态，查找问题根源。
 

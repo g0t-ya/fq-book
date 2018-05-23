@@ -1,6 +1,6 @@
 # \[转\]NAT类型科普及一些简单提升方法
 
-> 转载自：http://www.right.com.cn/forum/thread-199299-1-1.html
+> 转载自：[NAT类型科普及一些简单提升NAT类型的方法](http://www.right.com.cn/forum/thread-199299-1-1.html)&emsp;作者：iSkyun
 
 首先可以在百度百科了解到什么是“[**NAT**](http://baike.baidu.com/item/nat)”，传送门→“[**NAT科普**”](http://baike.baidu.com/item/nat)  
 然后呢，看了那么多我们大概就知道了一些关于NAT的基本知识，比如说[**定义**](http://baike.baidu.com/item/nat)、[**功能**](http://baike.baidu.com/item/nat#1)、[**实现方式**](http://baike.baidu.com/item/nat#2)及[**类型**](http://baike.baidu.com/item/nat#7)
@@ -60,7 +60,7 @@ SSDP Discovery
 最后附上NAT类型测试工具：  
 ![](http://www.right.com.cn/forum/static/image/filetype/zip.gif) [NAT类型测试.zip](http://www.right.com.cn/forum/plugin.php?id=imc_attachad:ad&aid=MTQzODYzfDQxMGQxODFmfDE1MjU4MzkxMjZ8MHwxOTkyOTk%3D) 
   
-P.S.:  
+PS:  
 如果能找运营商要到外网IP，这是最好的；没有公网IP的话，可以打电话给客服态度强硬点、最好一开始就把客服的工号也要了并说“我家宽带怎么没公网IP啊，我需在家里装远程监控，没有公网IP的话不行，如果不给我公网IP，我只好退宽带换别家的了，不给就投诉你”；但如果还是要不到公网IP，能提升到NAT2也不错了。
 
 还有一种最笨的就是直接电脑拨号上网，Windows 直接把防火墙关了，只要你的是公网IP，妥妥的NAT1。想要提升PS4/XBox这类游戏主机的NAT类型，建议以上能做的都做了。    

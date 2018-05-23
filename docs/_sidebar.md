@@ -73,13 +73,13 @@
   * [[转]meek网桥的技术原理](abc/meek.md)
   * [[转]用Win7，电脑就是路由器](abc/win7-wifi.md)
   * [[转]VMware的3种网络模式](abc/3vm.md)
-  * [[转]net类型科普以及提升方法](abc/4nat.md)
+  * [[转]nat类型科普以及提升方法](abc/4nat.md)
 
 * 细节补充
 
   * [ss#1130](append/ss1130.md)
   * [难封锁的草榴](append/caoliu.md)
-  * [安卓手机权限](append/android.md)
+  * [浅谈手机权限](append/android.md)
   * [封锁IP的理解](append/block-ip.md)
   * [对游戏的解读](append/game.md)
   * [获取工具方法](append/get-method.md)
@@ -92,5 +92,5 @@
 
 * 参考文献
 
-  * [文献名单](reference/literature.md)
+  * [文献列表](reference/literature.md)
 
