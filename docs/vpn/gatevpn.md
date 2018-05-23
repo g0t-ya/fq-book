@@ -2,7 +2,7 @@
 
 !>重点且易被封杀的对象，需要选择合适的协议与连接方式并时常更新列表与软件，否则连接成功率极低
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/1234.gif)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/1234.gif)
 
 > 列表转载自：https://pao-pao.net/article/82
 

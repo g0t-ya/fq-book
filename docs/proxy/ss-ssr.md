@@ -6,31 +6,31 @@
 
 访问[ss站点](https://free-ss.tk/)，右键扫描二维码
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-04-30_105508.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-30_105508.png)
 
  此时已经可以连接互联网了，如果你的系统不是自动设置的，请看<a href="#/proxy/ss-ssr?id=服务器配置说明">服务器配置说明</a>
 
 WiFi局域网共享手机
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-05-05_032022.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-05_032022.png)
 
 `网络和共享中心`-&gt;`wlan`-&gt;`详细信息`查看本机网卡IP地址
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-05-05_032400.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-05_032400.png)
 
 `高级`设置`代理`选择`手动`，按照如下信息设置
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/x1.png)
-<!-- ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/qq-tu-pian-20180505033638.jpg) -->
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/x1.png)
+<!-- ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/qq-tu-pian-20180505033638.jpg) -->
 
 测试
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/x2.png)
-<!-- ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/qq-tu-pian-20180505a.jpg) -->
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/x2.png)
+<!-- ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/qq-tu-pian-20180505a.jpg) -->
 
 ### 服务器配置说明
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-04-28_224352.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_224352.png)
 
 PAC模式即脚本配置模式，收录的网址走代理路线，没有收录的地址则不走代理路线即正常访问。例如将Google加入代理访问列表，配置规则如下：
 
@@ -41,7 +41,7 @@ PAC模式即脚本配置模式，收录的网址走代理路线，没有收录�
 
 在`pac`选项中-&gt;`编辑本地pac文件`即可
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-04-28_230423.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_230423.png)
 
 ## ShadowsocksR
 
@@ -49,13 +49,13 @@ PAC模式即脚本配置模式，收录的网址走代理路线，没有收录�
 
 如图设置
 
-![1](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-04-28_235146.png)
+![1](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_235146.png)
 
-![2](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-04-28_235317.png)
+![2](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_235317.png)
 
-![3](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-04-28_235337.png)
+![3](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_235337.png)
 
-![4](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-04-28_235358.png)
+![4](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_235358.png)
 
 订阅的好处：
 

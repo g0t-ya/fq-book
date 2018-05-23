@@ -2,7 +2,7 @@
 
 > **[danger]** **GFW的本质上是巨大的高性能分布式入侵检测维稳系统并不是单纯的防火墙**
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/4gfw.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/4gfw.png)
 
 > 图片来源于：[上网限制和翻墙基本原理](http://blog.021xt.cc/archives/85#comment-4100)
 

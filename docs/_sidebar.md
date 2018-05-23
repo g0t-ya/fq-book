@@ -12,10 +12,10 @@
 
 * 搜索引擎
   
-  * [Qwant](search-tool/qwant.md)
-  * [Ecosia](search-tool/ecosia.md)
-  * [DuckDuckGo](search-tool/duckduckgo.md)
-  * [Ask](search-tool/ask.md)
+  * [Qwant](search/qwant.md)
+  * [Ecosia](search/ecosia.md)
+  * [DuckDuckGo](search/duckduckgo.md)
+  * [Ask](search/ask.md)
 
 * 浏览应用
 

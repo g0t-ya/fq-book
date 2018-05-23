@@ -2,11 +2,11 @@
 
 一个IP指向多个地址，污染一个域名还有另一个域名指向。
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-05-02_002837.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-02_002837.png)
 
 IP被列入黑名单后，需通过迎春楼贵宾通道，就是VPN隧道协议访问。
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/2018-05-02_002021.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-02_002021.png)
 
 若是浏览器不支持远程DNS解析，访问网站很多时候就会先通过ISP默认的DNS解析服务器进行解析，这样ISP就会知道你访问了哪个网站。对于VPN来说DNS很多时候都是本地解析的，所以常有人反映即使用了VPN一些被DNS污染的网站依旧上不了，把默认DNS解析服务器设置为国外的DNS解析服务器就能解决问题。
 
