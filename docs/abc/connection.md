@@ -10,7 +10,7 @@
 
 TCP/IP协议拓扑图
 
-![top图](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/171651525642888.png)
+![top图](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/171651525642888.png)
 
 所以VPN能连接TCP与UDP协议，是因为虚拟网卡以及其生成的IP比TCP与UDP更为底层；sock处于OSI模型中的会话层，负责在数据传输中设置和维护电脑网络中两台电脑之间的通信连接，并不关心是何种应用协议，以至于sock代理不能互联用于其他协议的软件。典型的例子：v2ray需要switchyomega在表示层做中继代理打开被封锁的站点。
 
