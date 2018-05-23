@@ -11,6 +11,19 @@
   <link rel="icon" href="ico/favicon.ico">
   <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css"> -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/pure.css"> -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css"> -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118581437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118581437-1');
+</script>
 
 </head>
 <body>
@@ -19,8 +32,8 @@
 
 <script>
   gitalkConfig = {
-    clientID: '8f2965ee9f262526376e',
-      clientSecret: 'aa3f09b6974408a976c6b7aac2b17f29af150bb9',
+    clientID: 'a39472ddcd04be87ba13',
+      clientSecret: '371764e0c1ad811eb9dcdd9a783e38a26849f552',
       repo: 'fq-book',
       owner: 'loremwalker',
       admin: ['loremwalker'],
@@ -28,7 +41,7 @@
     },
     window.$docsify = {
       name: '这本书能让你连接互联网',
-      repo: "loremwalker/testx",
+      repo: "loremwalker/fq-book",
       loadSidebar: true,
       themeColor: "black",
       subMaxLevel: 3,
@@ -71,5 +84,7 @@
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
 </body>
 </html>
