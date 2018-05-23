@@ -71,9 +71,9 @@
   * [[转]科学上网原理](abc/1190000011485579.md)
   * [[转]GFW原理和封锁技术](abc/gfw.md)
   * [[转]meek网桥的技术原理](abc/meek.md)
-  * [[转]用Win7，电脑就是路由器](abc/win7-wifi.md)
   * [[转]VMware的3种网络模式](abc/3vm.md)
   * [[转]nat类型科普以及提升方法](abc/4nat.md)
+  * [[转]深网和暗网的区别及基础扫盲](abc/darkweb.md)
 
 * 细节补充
 
@@ -85,6 +85,7 @@
   * [获取工具方法](append/get-method.md)
   * [对VPN与代理的整合](append/vpn-proxy.md)
   * [不写VPS搭建的原因](append/none-vps.md)
+  * [[转]用Win7，电脑就是路由器](append/win7-wifi.md)
 
 * 文章总结
 

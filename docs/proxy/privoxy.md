@@ -20,7 +20,7 @@
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-06_203158.png)
 
-## 简单扩展
+## 简单进阶
 
 将网络共享给手机，ss共享局域网也是做了privoxy含有的端口映射功能；按照如下配置将本机环回地址改为任意地址
 
