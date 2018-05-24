@@ -1,7 +1,7 @@
 # fq-book
 
-|[![fq-book](https://img.shields.io/badge/%F0%9F%93%96book-fq--book-red.svg?longCache=true&style=flat-square)](https://loremwalker.github.io/fq-book)|[![docsify](https://img.shields.io/badge/%F0%9F%93%96docs-docsify-brightgreen.svg?longCache=true&style=flat-square)](https://docsify.js.org/)|[![blog](https://img.shields.io/badge/%F0%9F%94%97blog-loremwalker-lightgrey.svg?longCache=true&style=flat-square)](https://loremwalker.github.io/)|[![hotmail](https://img.shields.io/badge/%F0%9F%93%A7hotmail-@邮箱联系-blue.svg?longCache=true&style=flat-square)](mailto:loremwalker@hotmail.com)|[![telegram](https://img.shields.io/badge/telegram-:me-blue.svg?longCache=true&style=flat-square)](https://t.me/loremwalker)
-|:-:|:-:|:-:|:-:|:-:|
+|[![cc](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc/4.0/)|[![fq-book](https://img.shields.io/badge/%F0%9F%93%96book-fq--book-red.svg?longCache=true&style=flat-square)](https://loremwalker.github.io/fq-book)|[![docsify](https://img.shields.io/badge/%F0%9F%93%96docs-docsify-brightgreen.svg?longCache=true&style=flat-square)](https://docsify.js.org/)|[![blog](https://img.shields.io/badge/%F0%9F%94%97blog-loremwalker-lightgrey.svg?longCache=true&style=flat-square)](https://loremwalker.github.io/)|[![hotmail](https://img.shields.io/badge/%F0%9F%93%A7hotmail-@邮箱联系-blue.svg?longCache=true&style=flat-square)](mailto:loremwalker@hotmail.com)|[![telegram](https://img.shields.io/badge/telegram-:me-blue.svg?longCache=true&style=flat-square)](https://t.me/loremwalker)
+|:-:|:-:|:-:|:-:|:-:|:-:|
 
 首先对早期fork者说声歉意，因为早期不管是[websiteful](https://github.com/loremwalker/WebSiteUseful)还是fq-book变动都很大。特别是fq-book由于各种内外因素干扰，历经多次重改删库，致使该书有多个未完全残缺版本，很是影响阅读体验，这对该书籍传播是尤为不利的；知识是共享的，且该书转载与借鉴了大量的相关作者文章内容，所以因此也愿意允许你演绎作品被共享但禁止商用。
 
@@ -15,6 +15,4 @@
 
 如果觉得此书不错的话，你可以推荐给朋友、基友乃至你的爱人；同时，请看过此书而科学上网成功的朋友在gitalk评论里留下你们的足迹，这也是为了更好地帮助追求免费自由冲浪互联网以及有意向了解计算机专业的相关人群等。
 
-<hr>
-
- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />&nbsp;</a>本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
+此书献给热爱互联网的人们，对于党派喉舌的工作成员，你不应该把闲暇时间浪费在这样一部毫无价值的书上，再见！
