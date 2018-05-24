@@ -40,7 +40,10 @@
       distractionFreeMode: false
     },
     window.$docsify = {
-      name: '这本书能让你连接互联网',
+      name: '这本书能让你连接互联网 '
+      + '<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">'+
+        '<img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />'
+        +'</a>',
       repo: "loremwalker/fq-book",
       loadSidebar: true,
       themeColor: "black",
@@ -55,6 +58,7 @@
         // }
       },
       plugins: [
+
         function (hook, vm) {
           hook.doneEach(function () {
             var label, domObj, main, divEle, gitalk;
@@ -84,9 +88,9 @@
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
-<script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
 <script src="//unpkg.com/docsify-copy-code"></script>
+<!-- <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script> -->
 </body>
 </html>
