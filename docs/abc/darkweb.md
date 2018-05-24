@@ -56,29 +56,29 @@
 
 而根据wiki上[Dark web](https://en.wikipedia.org/wiki/Dark_web)里的相关数据表明，暗网站点里数量前三的是”Drugs”、”Market”、”Fraud”,即药品、交易、欺诈前三，可以说明那些极度血腥反人类的真的只是极少
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/hidden-web-category.jpg)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/hidden-web-category.jpg)
 
 ## 总结
 
 首先是需要TOR打开[The Uncensored Hidden Wiki](http://uhwiki36pbooodfj.onion/wiki/index.php/Main_Page)，另外这种导航页其实有很多，各位可以自行挖掘
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/hiddenwiki.jpg)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/hiddenwiki.jpg)
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/hiddenwiki-list.jpg)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/hiddenwiki-list.jpg)
 
 另一个导航站点：
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/hdwiki.jpg)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/hdwiki.jpg)
 
 其次是某些站点的截图。有军火、Drug、假护照、信用卡
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/gun.jpg)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/gun.jpg)
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/fake.jpg)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/fake.jpg)
 
 不过也不是所有站点都是违法犯罪的，也有些画风比较清奇如下图，这说明其实你也完全可以在暗网搭个网站放动画片，不过有没有人看就是另一回事了。
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/images/ps4.jpg)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/ps4.jpg)
 
 
 
