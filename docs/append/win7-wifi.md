@@ -1,4 +1,4 @@
-# \[转\]用Win7，电脑就是路由器
+# \[转\]用Win7，电脑就是路由器 {docsify-ignore}
 
 > 转载自：[用Win7，电脑就是路由器](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html) 作者：[微软Windows的博客](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html)
 
