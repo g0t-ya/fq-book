@@ -4,23 +4,23 @@
 
 右击选择`git bash`在命令行中输入 `npm i docsify-cli -g`
 
-![](.gitbook/assets/2018-05-24_225913.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/tutorial/imgpng/2018-05-24_225913.png)
 
 点击`clone or download`接着再点击`DownloadZIP`下载压缩包
 
-![](.gitbook/assets/2018-05-25_001210.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/tutorial/imgpng/2018-05-25_001210.png)
 
 解压缩后进入到`fq-book-master/docs`目录中右击打开`git bash`输入`docsify init .`
 
-![](.gitbook/assets/2018-05-25_004625.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/tutorial/imgpng/2018-05-25_004625.png)
 
 打开`index.html`，在`repo`下方添加`lodaSidebar: true`并保存
 
-![](.gitbook/assets/2018-05-25_005149.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/tutorial/imgpng/2018-05-25_005149.png)
 
 接着使用`docsify serve`完成本地部署，在浏览器中输入`localhost:3000`即可看到效果
 
-![](.gitbook/assets/2018-05-25_005409.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/tutorial/imgpng/2018-05-25_005409.png)
 
 
 
