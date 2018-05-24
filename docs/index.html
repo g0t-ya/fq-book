@@ -82,7 +82,20 @@
             }))
             gitalk.render('gitalk-container-' + label)
           })
-        }
+        },
+      function (hook) {
+      var footer = [
+        // '<hr/>',
+        '<footer>',
+          '<span> &copy;2018.<a href="https://loremwalker.github.io" style="color: inherit; font-weight: normal; text-decoration: none;">loremwalker</a></span>&emsp;',
+        '<span><a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a><span>',
+        '</footer>'
+      ].join('')
+
+      hook.afterEach(function (html) {
+        return html + footer
+      })
+    }
       ]
     }
 </script>
