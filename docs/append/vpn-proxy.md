@@ -41,7 +41,7 @@
 * opera
    *  extension source viewer
 
-安装extension source viewer插件再下载chrome代理插件，然后安装到chrome浏览器还是很不错的
+opera使用extension source viewer插件再下载chrome代理插件，然后安装到chrome浏览器还是很不错的
 
 **chrome代理插件**
 
