@@ -22,13 +22,13 @@
 * ssr
 * v2rayN
 
-3个常用且各类账号分享站点支持最多的科学上网代理，属于装机必备代理软件，至于XX-Net与goAgent实在太屎了，还不如用brook
+3个常用且各类账号分享站点支持最多的装机必备科学上网代理，至于XX-Net与goAgent实在太屎了，还不如用brook
 
 **SSH客户端**
 
 * bitvise ssh client
 
-国外有一些很不错的创建SSH账号的站点，加密和速度都还是不错的，配上bitvise ssh client直观的协议端口转发很容易上手
+国外有一些很不错的创建SSH账号的站点，加密和速度都还是不错的，配上此SSH客户端直观的协议端口转发很容易上手
 
 **http协议代理转发器**
 
@@ -41,7 +41,7 @@
 * opera
    *  extension source viewer
 
-使用opera浏览器科学上网，安装extension source viewer的插件下载chrome代理，再安装到chrome浏览器还是很不错的
+安装extension source viewer插件再下载chrome代理插件，然后安装到chrome浏览器还是很不错的
 
 **chrome代理插件**
 
